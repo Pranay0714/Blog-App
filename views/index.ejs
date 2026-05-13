@@ -1,0 +1,22 @@
+<%- include('./partials/header.ejs') %>
+
+    <div class="home">
+        <div class="homeText">
+            <h1>Blog karo 📰 </h1>
+            <p> <strong>A blog web application developed by Pranay</strong> <br> <br>Welcome to Blog Karo, a
+                community-driven space made by me for sharing ideas around code and creativity. This blog focuses on
+                programming concepts, practical solutions, and real-world experiences from my development journey. From
+                beginner-friendly guides to deeper technical discussions, Blog Karo is designed to support learners at
+                every stage. Together, we explore, learn, and grow in the ever-changing world of software development.
+            </p>
+            <form action="/subscribe" method="post">
+                <input type="email" name="email" placeholder="Enter Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+        <div class="homeImage">
+            <img src="images/Designer.png" alt="">
+        </div>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
